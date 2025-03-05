@@ -8,7 +8,7 @@ for i in range(5):
 # 2
 # 3
 # 4
-countdown = 2
+countdown = 5
 
 while countdown > 0:
     print("Counting down:", countdown)
