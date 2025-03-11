@@ -4,18 +4,18 @@ operator = input("Enter the operator (+, -, *, /): ")
 
 if operator == "+":
             result = num1 + num2
-            print("{num1} + {num2} = {result}")
+            print( result )
 elif operator == "-":
         result = num1 -num2
-        print("{num1} - {num2} = {reult}")
+        print(result)
 elif operator == "*":
         result = num1 * num2 
-        print("{num1} * {num2} = {result}")
+        print(result)
 elif operator == "/":
     if num2 == 0:
            print("Error: Division by zero is not allowed.")
     else:
         result = num1 / num2
-        print(f"{num1} / {num2} = {result}")  
+        print(result)  
 else:
   print("Invalid operator. Please enter +, -, *, or /.")
