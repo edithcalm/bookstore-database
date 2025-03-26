@@ -2,16 +2,12 @@
 for i in range(5):
     print(i)
 
-# Outputs:
-# 0
-# 1
-# 2
-# 3
-# 4
-countdown = 5
 
+countdown = 5
+# Countdown loop
 while countdown > 0:
-    print("Counting down:", countdown)
+    print(f"Countdown: {countdown}")
     countdown -= 1
 
+# Final message
 print("Blast off! 🚀")
