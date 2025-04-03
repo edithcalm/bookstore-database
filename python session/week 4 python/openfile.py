@@ -1,3 +1,3 @@
-file  = open("example.txt","r")
+file= open("example.txt","r")
 data = file.read ()
 print (data)
