@@ -23,13 +23,13 @@ Key Features
 5. Appropriate constraints (NOT NULL, UNIQUE)
 
 Access Control & User Management
-User Accounts
-Our system implements three distinct user accounts with different privilege levels:
+-User Accounts
+-Our system implements three distinct user accounts with different privilege levels:
 
 Username	                   Assigned Role 	         Access Level
-leon@localhost		            admin_full	            Full administrative privileges
-joy@localhost		             read_write	            Read and write access
-edith@localhost		           read_only	             Read-only access
+1. leon@localhost		            admin_full	            Full administrative privileges
+2. joy@localhost		             read_write	            Read and write access
+3. edith@localhost		           read_only	             Read-only access
 
 Role Definitions
 We've established three security roles with granular permissions:
