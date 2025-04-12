@@ -26,10 +26,12 @@ Access Control & User Management
 -User Accounts
 -Our system implements three distinct user accounts with different privilege levels:
 
-Username	                   Assigned Role 	         Access Level
-1. leon@localhost		            admin_full	            Full administrative privileges
-2. joy@localhost		             read_write	            Read and write access
-3. edith@localhost		           read_only	             Read-only access
+| user name     | Description                        | Privileges                                  |
+|-------------- |------------------------------------|---------------------------------------------|
+|leon@localhost | View-only access for data auditing |  Read-only access                           |
+|joy@localhost  | For editors and staff              |  Read and write access                      |
+|edith@localhost| Full administrative control        |  Full administrative privileges             |
+
 
 Role Definitions
 We've established three security roles with granular permissions:
@@ -62,7 +64,7 @@ Joy provided the following visual assets:
 
 4. User permission flow diagrams
 
- They are included on the repo
+ (They are included on the repo)
 
 🛠️ Technical Specifications
 1. Database System: MySQL 8.0+
