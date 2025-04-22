@@ -22,16 +22,19 @@ Auto-incrementing primary keys
 Appropriate constraints (NOT NULL, UNIQUE)
 Access Control & User Management -User Accounts -Our system implements three distinct user accounts with different privilege levels:
 
-Username Assigned Role Access Level
 
-leon@localhost admin_full Full administrative privileges
-joy@localhost read_write Read and write access
-edith@localhost read_only Read-only access
+ Username	                   Assigned Role 	         Access Level
+ 1. leon@localhost		          admin_full	        Full administrative privileges
+ 2. joy@localhost		            Read_write	          Read and write access
+ 3. edith@localhost		          read_only	           Read-only access
+
 user name	Description	Privileges
-leon@localhost	View-only access for data auditing	Read-only access
-joy@localhost	For editors and staff	Read and write access
-edith@localhost	Full administrative control	Full administrative privileges
-Role Definitions We've established three security roles with granular permissions:
+
+ | user name     | Description                        | Privileges                                  |
+ |-------------- |------------------------------------|---------------------------------------------|
+ |leon@localhost | View-only access for data auditing |  Read-only access                           |
+ |joy@localhost  | For editors and staff              |  Read and write access                      |
+ |edith@localhost| Full administrative control        |  Full administrative privileges             |
 
 admin_full (Assigned to Leon)
 SELECT, INSERT, and UPDATE privileges on all tables Full administrative control over the database
